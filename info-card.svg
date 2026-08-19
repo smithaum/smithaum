@@ -1,326 +1,310 @@
-
 <svg xmlns="http://www.w3.org/2000/svg"
-width="520"
-height="340">
+width="620"
+height="500">
 
 <style>
 
 text {
-font-family: Consolas, monospace;
+    font-family: Consolas, monospace;
 }
 
 .value {
-fill:#58a6ff;
+    fill:#58a6ff;
 }
 
 .key {
-fill:#7ee787;
+    fill:#7ee787;
 }
 
 .row {
-opacity:0;
-animation: fade .4s forwards;
+    opacity:0;
 }
 
 @keyframes fade {
-to { opacity:1; }
+    to { opacity:1; }
 }
 
 </style>
 
+<!-- Background -->
 <rect
 x="0"
 y="0"
-width="520"
-height="340"
+width="620"
+height="500"
 rx="12"
 fill="#0d1117"/>
 
+<!-- Terminal Header -->
 <rect
 x="0"
 y="0"
-width="520"
-height="36"
+width="620"
+height="38"
 rx="12"
 fill="#161b22"/>
 
-<circle cx="22" cy="18" r="6" fill="#ff5f56"/>
-<circle cx="42" cy="18" r="6" fill="#ffbd2e"/>
-<circle cx="62" cy="18" r="6" fill="#27c93f"/>
+<!-- Terminal Buttons -->
+<circle cx="22" cy="19" r="6" fill="#ff5f56"/>
+<circle cx="42" cy="19" r="6" fill="#ffbd2e"/>
+<circle cx="62" cy="19" r="6" fill="#27c93f"/>
 
+<!-- Terminal Title -->
 <text
-x="260"
-y="23"
+x="310"
+y="24"
 fill="#c9d1d9"
 font-size="14"
 text-anchor="middle">
-
 whoami
-
 </text>
 
 
+<!-- NAME -->
 <g class="row">
-
-<animate
-attributeName="opacity"
-from="0"
-to="1"
+<animate attributeName="opacity"
+from="0" to="1"
 dur=".3s"
-begin="0.0s"
+begin="0s"
 fill="freeze"/>
 
-<text
-class="key"
-x="25"
-y="65"
-font-size="15">
+<text class="key" x="25" y="68" font-size="15">Name</text>
 
-Name
-
-</text>
-
-<text
-class="value"
-x="150"
-y="65"
-font-size="15">
-
+<text class="value" x="190" y="68" font-size="15">
 Smitha U M
-
 </text>
-
 </g>
 
 
+<!-- ROLE -->
 <g class="row">
-
-<animate
-attributeName="opacity"
-from="0"
-to="1"
+<animate attributeName="opacity"
+from="0" to="1"
 dur=".3s"
-begin="0.15s"
+begin=".15s"
 fill="freeze"/>
 
-<text
-class="key"
-x="25"
-y="97"
-font-size="15">
+<text class="key" x="25" y="100" font-size="15">Role</text>
 
-Role
-
-</text>
-
-<text
-class="value"
-x="150"
-y="97"
-font-size="15">
-
+<text class="value" x="190" y="100" font-size="15">
 Frontend Developer
-
 </text>
-
 </g>
 
 
+<!-- EDUCATION -->
 <g class="row">
-
-<animate
-attributeName="opacity"
-from="0"
-to="1"
+<animate attributeName="opacity"
+from="0" to="1"
 dur=".3s"
-begin="0.3s"
+begin=".30s"
 fill="freeze"/>
 
-<text
-class="key"
-x="25"
-y="129"
-font-size="15">
+<text class="key" x="25" y="132" font-size="15">
+Education
+</text>
 
+<text class="value" x="190" y="132" font-size="15">
+B.E. Computer Science
+</text>
+</g>
+
+
+<!-- COLLEGE -->
+<g class="row">
+<animate attributeName="opacity"
+from="0" to="1"
+dur=".3s"
+begin=".45s"
+fill="freeze"/>
+
+<text class="key" x="25" y="164" font-size="15">
 College
-
 </text>
 
-<text
-class="value"
-x="150"
-y="129"
-font-size="15">
-
+<text class="value" x="190" y="164" font-size="15">
 Jyothy Institute of Technology
-
 </text>
-
 </g>
 
 
+<!-- INTERNSHIP -->
 <g class="row">
-
-<animate
-attributeName="opacity"
-from="0"
-to="1"
+<animate attributeName="opacity"
+from="0" to="1"
 dur=".3s"
-begin="0.44999999999999996s"
+begin=".60s"
 fill="freeze"/>
 
-<text
-class="key"
-x="25"
-y="161"
-font-size="15">
-
-Language
-
+<text class="key" x="25" y="196" font-size="15">
+Internship
 </text>
 
-<text
-class="value"
-x="150"
-y="161"
-font-size="15">
+<text class="value" x="190" y="196" font-size="15">
+DevOps Engineering Intern
+</text>
+</g>
 
+
+<!-- CURRENT FOCUS -->
+<g class="row">
+<animate attributeName="opacity"
+from="0" to="1"
+dur=".3s"
+begin=".75s"
+fill="freeze"/>
+
+<text class="key" x="25" y="228" font-size="15">
+Focus
+</text>
+
+<text class="value" x="190" y="228" font-size="15">
+Frontend + Cloud + DevOps
+</text>
+</g>
+
+
+<!-- LANGUAGES -->
+<g class="row">
+<animate attributeName="opacity"
+from="0" to="1"
+dur=".3s"
+begin=".90s"
+fill="freeze"/>
+
+<text class="key" x="25" y="260" font-size="15">
+Languages
+</text>
+
+<text class="value" x="190" y="260" font-size="15">
 Python • JavaScript • Java
-
 </text>
-
 </g>
 
 
+<!-- FRONTEND -->
 <g class="row">
-
-<animate
-attributeName="opacity"
-from="0"
-to="1"
-dur=".3s"
-begin="0.6s"
-fill="freeze"/>
-
-<text
-class="key"
-x="25"
-y="193"
-font-size="15">
-
-Framework
-
-</text>
-
-<text
-class="value"
-x="150"
-y="193"
-font-size="15">
-
-React • Node.js
-
-</text>
-
-</g>
-
-
-<g class="row">
-
-<animate
-attributeName="opacity"
-from="0"
-to="1"
-dur=".3s"
-begin="0.75s"
-fill="freeze"/>
-
-<text
-class="key"
-x="25"
-y="225"
-font-size="15">
-
-Cloud
-
-</text>
-
-<text
-class="value"
-x="150"
-y="225"
-font-size="15">
-
-AWS
-
-</text>
-
-</g>
-
-
-<g class="row">
-
-<animate
-attributeName="opacity"
-from="0"
-to="1"
-dur=".3s"
-begin="0.8999999999999999s"
-fill="freeze"/>
-
-<text
-class="key"
-x="25"
-y="257"
-font-size="15">
-
-Tools
-
-</text>
-
-<text
-class="value"
-x="150"
-y="257"
-font-size="15">
-
-Git • Docker • VS Code
-
-</text>
-
-</g>
-
-
-<g class="row">
-
-<animate
-attributeName="opacity"
-from="0"
-to="1"
+<animate attributeName="opacity"
+from="0" to="1"
 dur=".3s"
 begin="1.05s"
 fill="freeze"/>
 
-<text
-class="key"
-x="25"
-y="289"
-font-size="15">
+<text class="key" x="25" y="292" font-size="15">
+Frontend
+</text>
 
+<text class="value" x="190" y="292" font-size="15">
+HTML • CSS • React • React Native
+</text>
+</g>
+
+
+<!-- BACKEND -->
+<g class="row">
+<animate attributeName="opacity"
+from="0" to="1"
+dur=".3s"
+begin="1.20s"
+fill="freeze"/>
+
+<text class="key" x="25" y="324" font-size="15">
+Backend
+</text>
+
+<text class="value" x="190" y="324" font-size="15">
+Node.js • REST APIs • MySQL
+</text>
+</g>
+
+
+<!-- CLOUD -->
+<g class="row">
+<animate attributeName="opacity"
+from="0" to="1"
+dur=".3s"
+begin="1.35s"
+fill="freeze"/>
+
+<text class="key" x="25" y="356" font-size="15">
+Cloud
+</text>
+
+<text class="value" x="190" y="356" font-size="15">
+AWS • Docker
+</text>
+</g>
+
+
+<!-- TOOLS -->
+<g class="row">
+<animate attributeName="opacity"
+from="0" to="1"
+dur=".3s"
+begin="1.50s"
+fill="freeze"/>
+
+<text class="key" x="25" y="388" font-size="15">
+Tools
+</text>
+
+<text class="value" x="190" y="388" font-size="15">
+Git • GitHub • VS Code
+</text>
+</g>
+
+
+<!-- PROJECTS -->
+<g class="row">
+<animate attributeName="opacity"
+from="0" to="1"
+dur=".3s"
+begin="1.65s"
+fill="freeze"/>
+
+<text class="key" x="25" y="420" font-size="15">
+Projects
+</text>
+
+<text class="value" x="190" y="420" font-size="15">
+Budget Beam • ML • Web Apps
+</text>
+</g>
+
+
+<!-- INTERESTS -->
+<g class="row">
+<animate attributeName="opacity"
+from="0" to="1"
+dur=".3s"
+begin="1.80s"
+fill="freeze"/>
+
+<text class="key" x="25" y="452" font-size="15">
+Interests
+</text>
+
+<text class="value" x="190" y="452" font-size="15">
+UI/UX • Videography • Typography
+</text>
+</g>
+
+
+<!-- GITHUB -->
+<g class="row">
+<animate attributeName="opacity"
+from="0" to="1"
+dur=".3s"
+begin="1.95s"
+fill="freeze"/>
+
+<text class="key" x="25" y="484" font-size="15">
 GitHub
-
 </text>
 
-<text
-class="value"
-x="150"
-y="289"
-font-size="15">
-
+<text class="value" x="190" y="484" font-size="15">
 @smithaum
-
 </text>
-
 </g>
 
 </svg>
