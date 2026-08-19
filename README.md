@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 Hello, I'm Smitha U M 
+# 👋🏻 Hello, I'm Smitha U M 
 
 <h3><code>smithaum@github:~$ ./contributions.sh</code></h3>
 
