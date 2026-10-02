@@ -100,6 +100,23 @@ Currently strengthening my hands-on knowledge of Linux administration, Docker, J
 | Graphic Design Intern | SkillCraft Technology | Visual Design |
 | Web Development Intern | Vanillakart | Web Development |
 
+---
+
+## Virtual Experience
+
+Hands-on virtual experiences and simulations completed through **Forage**, covering software engineering, cloud technology, data analytics, risk, and GenAI.
+
+| Company | Virtual Experience | Focus |
+|---|---|---|
+| JPMorgan Chase & Co. | Software Engineering | Kafka • Spring Boot • REST APIs • JPA • H2 |
+| Wells Fargo | Software Engineering | ERD • Database Design • IntelliJ |
+| Goldman Sachs | Risk | Credit Risk Analysis |
+| Tata | GenAI Powered Data Analytics | EDA • GenAI • Predictive Analytics |
+| Skyscanner | Software Engineering | Dropwizard • Microservices • Android |
+| Commonwealth Bank | Tech Explorer | Technology Exploration |
+
+---
+
 ## GitHub Activity
 
 <div align="center">
