@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 Hi, I'm Smitha U M
+# 👋🏻Hi, I'm Smitha U M
 
 ### CSE Undergraduate • DevOps Engineer Intern • Frontend Developer
 
